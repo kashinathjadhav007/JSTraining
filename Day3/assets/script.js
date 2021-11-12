@@ -75,9 +75,8 @@ console.log('for each data',data +20);
 })
 
 
+//filter():It creates a new array filled with elements that pass test provided by function
 
-
-//filter()
 
 //sort()
 const sort=arr3.sort();
@@ -88,7 +87,16 @@ const con=arr.concat(arr3);
 console.log('concat array',con);
 
 //every()
+// every() executes a function for each array element.
+// every() returns true if the function returns true for all elements.
+// every() returns false if the function returns false for one element.
+
+
 //some()
+// some() checks if any array elements pass a test (provided as a function).
+// some() executes the function once for each array element:
+// If it returns true, some() returns true and stops.
+// If it returns false, some() returns false and stops.
 
 //join()
 var myarr=['a','b','c'];
@@ -96,7 +104,10 @@ console.log(myarr.join(' '+ 'albhebets' + ' '))
 
 //reduce()
 
-//find()
+//find() ind() method search through all the child elements only. 
+//find: return first item with matching condition. return an object or value
+
+
 //findindex()
 const ages = [3, 10, 18, 20];
 
