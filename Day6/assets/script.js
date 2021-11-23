@@ -28,6 +28,7 @@ console.log(Object.values(user))
 
 
 
+//task2
 let val={
 result: function (age)
     {
