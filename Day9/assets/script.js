@@ -70,4 +70,4 @@ for(i=0;i<arr3.length;i++)
 }
 }
 
-count_frequancy();
+count_frequancy(arr2);
